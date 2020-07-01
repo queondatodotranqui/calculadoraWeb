@@ -1,0 +1,75 @@
+body {
+    background-color: grey;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+#box {
+    width: 460px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+#result {
+    height: 170px;
+    text-align: right;
+}
+
+#history {
+    height: 20px;
+    color: grey;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#output {
+    height: 40px;
+    margin: 10px 20px;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+#keyboard {
+    height: 430px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.operador, .number {
+    height: 80px;
+    width: 90px;
+    float: left;
+    border: 0;
+    background-color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+}
+
+.empty {
+    height: 80px;
+    width: 90px;
+    float: left;
+    border: 0;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.operador:hover, .number:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.operador:active, .number:active{
+    background-color: black;
+}
+
